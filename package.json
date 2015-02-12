@@ -1,0 +1,23 @@
+{
+  "name": "XMPP",
+  "version": "0.0.1",
+  "description": "An ORM XMPP Jabber Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "tests/test.js"
+  },
+  "keywords": [
+    "xmpp",
+    "server",
+    "client",
+    "chat",
+    "jabber"
+  ],
+  "dependencies": {
+    "waterline": "*",
+    "express": "*",
+    "xmpp-chat-server": "*"
+  },
+  "author": "Active 9 LLC",
+  "license": "MIT"
+}
