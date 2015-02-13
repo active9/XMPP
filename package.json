@@ -1,10 +1,14 @@
 {
-  "name": "XMPP",
-  "version": "0.0.1",
+  "name": "xmpp",
+  "version": "0.0.2",
   "description": "An ORM XMPP Jabber Application",
   "main": "index.js",
   "scripts": {
     "test": "tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/active9/XMPP/"
   },
   "keywords": [
     "xmpp",
@@ -16,6 +20,8 @@
   "dependencies": {
     "waterline": "*",
     "express": "*",
+    "sails-disk": "*",
+    "lodash": "*",
     "xmpp-chat-server": "*"
   },
   "author": "Active 9 LLC",
