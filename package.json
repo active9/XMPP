@@ -1,6 +1,6 @@
 {
   "name": "xmpp",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "An ORM XMPP Jabber Application",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,9 @@
     "waterline": "*",
     "express": "*",
     "sails-disk": "*",
-    "lodash": "*"
+    "lodash": "*",
+    "node-xmpp-core": "*",
+    "events": "*"
   },
   "author": "Active 9 LLC",
   "license": "MIT"
